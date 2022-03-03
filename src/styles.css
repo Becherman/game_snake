@@ -1,0 +1,69 @@
+div,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#app {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.banner {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(39, 212, 224, 0.5);
+}
+
+.banner--visible {
+  display: flex;
+}
+
+.game-options {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.game-options__speed {
+  margin-bottom: 1rem;
+}
+
+.board {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.board--hide {
+  display: none;
+}
+
+.cell {
+  width: 20px;
+  border: 1px dashed darkgray;
+}
+
+.row {
+  height: 20px;
+  display: flex;
+}
+
+.snake {
+  background: green;
+}
+
+.food {
+  background-color: red;
+}

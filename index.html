@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Snake Game</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div id="board" class="board"></div>
+      <div id="banner" class="banner">
+        <form id="game-options" class="game-options">
+          <h3>__Snake Game__</h3>
+          <p>Game speed</p>
+          <div class="game-options__speed">
+            <input checked id="speed1" type="radio" name="speed" value="500" />
+            <label for="speed1">500</label>
+
+            <input id="speed2" type="radio" name="speed" value="400" />
+            <label for="speed2">400</label>
+
+            <input id="speed3" type="radio" name="speed" value="300" />
+            <label for="speed3">300</label>
+          </div>
+          <button id="start" class="game-options__submit" type="submit">
+            Start
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="dist/bundle.js"></script>
+  </body>
+</html>

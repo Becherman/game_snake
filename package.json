@@ -1,0 +1,27 @@
+{
+  "name": "snake-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "webpack"
+  },
+  "dependencies": {
+    "@types/lodash": "4.14.178",
+    "lodash": "4.17.21",
+    "parcel-bundler": "^1.6.1",
+    "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "css-loader": "^6.6.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.7",
+    "typescript": "4.4.4",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}
